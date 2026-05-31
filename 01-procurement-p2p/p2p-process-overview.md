@@ -22,7 +22,7 @@ These seven cover most situations. Variants exist for stock transport, subcontra
 - **Third-party** — vendor ships direct to your customer; you never take stock.
 - **Consignment** — stock sits in your plant but is owned by the vendor until withdrawn.
 
-In practice, retail engagements use a lot of standard + stock transport. Oil and gas tends to involve more subcontracting and service procurement. Telecom (Telia) was heavy on service procurement too.
+In practice, retail engagements use a lot of standard + stock transport. Oil and gas tends to involve more subcontracting and service procurement. Telecom engagements I've supported were heavy on service procurement too.
 
 ## Where MM touches other modules
 

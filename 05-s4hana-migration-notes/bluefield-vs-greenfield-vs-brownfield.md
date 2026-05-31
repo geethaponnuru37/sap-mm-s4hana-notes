@@ -32,7 +32,7 @@ Typical duration: 6–12 months for mid-size.
 
 Stand up a clean S/4HANA system, then move *selected* config, master data and transactional data from the old ECC. Decide per object what comes across.
 
-When it works: when the business wants a cleaner end state than Brownfield but cannot afford to lose years of open contracts and procurement history, and cannot stomach the duration of full Greenfield. Common in large complex enterprises with multi-year transactional histories. This was OMV's situation.
+When it works: when the business wants a cleaner end state than Brownfield but cannot afford to lose years of open contracts and procurement history, and cannot stomach the duration of full Greenfield. Common in large complex enterprises with multi-year transactional histories. This was the situation on the energy-sector programme I worked on.
 
 Pros: cleaner customising than Brownfield, less data baggage, opportunity to redesign selectively without doing everything at once, some history brought across so business continuity isn't lost.
 
