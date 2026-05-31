@@ -14,9 +14,7 @@ The notes are written in my own words and focus on how I have applied SAP MM/S/4
 
 I'm in Melbourne now, working through ITIL 4 and refreshing my S/4HANA Sourcing & Procurement reading.
 
-## ACS evidence focus
-
-For ACS purposes, this repository demonstrates:
+This repository demonstrates:
 
 - **SAP functional analysis**: P2P process mapping, purchase document types, release strategy, master-data dependencies, and MM/FI integration points.
 - **System integration and troubleshooting**: ALE/IDoc fundamentals, partner profile checks, status-code diagnosis, and reprocessing discipline.
