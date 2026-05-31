@@ -2,7 +2,7 @@
 
 In multi-region SAP landscapes — most large retailers, most global manufacturers — master data is usually governed centrally and then distributed out to the regional systems that run the local operations. SAP Master Data Governance (MDG) is the SAP product that does the governance bit. The distribution is just standard ALE / IDoc on top of it.
 
-On ALDI AHEAD I spent three years in this architecture, with the central S/4HANA Retail / MDG hub feeding the regional SAP instances per country. Most of what I know about it is from that.
+I spent several years working in this kind of architecture on a large European retail SAP programme, with a central S/4HANA Retail / MDG hub feeding regional SAP instances per country. Most of what I know about this pattern comes from that experience.
 
 ## The picture
 
@@ -37,7 +37,7 @@ It's not glamorous architecture but it works, when configured carefully.
 
 ## The classic failure modes
 
-After a few months on ALDI I could almost call which type of failure was waiting in the morning ticket queue. The recurring patterns:
+After a few months in this landscape I could almost predict which type of failure would be waiting in the morning ticket queue. The recurring patterns:
 
 1. **Partner profile drift** — MDG's outbound profile carries a segment the regional inbound profile doesn't know about. IDoc fails with a structure error. Fix is a coordinated transport on both sides.
 2. **Code value mismatch** — a new payment term added centrally but not yet maintained in the regional code list. Inbound fails with "value not allowed". Fix in regional, then re-distribute.

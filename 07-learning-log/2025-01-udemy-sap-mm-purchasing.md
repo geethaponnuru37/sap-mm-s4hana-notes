@@ -11,7 +11,7 @@
 
 ## Why I took it
 
-After a few years deep in retail master data and IDoc work on ALDI AHEAD, I noticed I was getting narrower. Most of my day was spent on the same patterns — article master, MDG distribution, IDoc reprocessing. I wanted to step back and walk through the basics of MM procurement from someone else's perspective, just to make sure I hadn't drifted away from the broader picture.
+After a few years deep in retail master data and IDoc work on a large SAP retail programme, I noticed I was getting narrower. Most of my day was spent on the same patterns — article master, MDG distribution, IDoc reprocessing. I wanted to step back and walk through the basics of MM procurement from someone else's perspective, just to make sure I hadn't drifted away from the broader picture.
 
 So I picked a short course. Three hours, beginner level, deliberately easy. The point wasn't to learn something new, it was to refresh.
 

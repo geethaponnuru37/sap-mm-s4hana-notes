@@ -1,28 +1,38 @@
-# SAP MM / S/4HANA Notes
+# SAP MM / S/4HANA Portfolio Notes
 
-My personal SAP knowledge base. I'm Geetha — SAP MM functional consultant, currently based in Melbourne. Around 8 years on the job across three employers.
+My personal SAP knowledge base and portfolio evidence set. I'm Geetha, an SAP MM functional consultant currently based in Melbourne, with around 8 years of hands-on experience across SAP support, implementation, integration, testing, and service management work.
 
-I started writing these notes mainly for myself, while moving between projects. Each time I joined a new engagement I noticed I was relearning the same things — release strategy quirks, IDoc reprocessing steps, the way the Business Partner model changed in S/4HANA. So I started keeping a folder of cheatsheets and topic summaries. This repository is a cleaned-up version of that folder.
+I started writing these notes while moving between projects. Each new engagement brought the same practical patterns back into view: release strategy quirks, IDoc reprocessing steps, master-data distribution failures, testing discipline, and the Business Partner model in S/4HANA. This repository is a cleaned-up version of those notes.
 
-Nothing here is theory I picked from a book. Most of it is what I actually do in practice, with some background I added so it stands on its own. Wherever I have a strong opinion, I say so. Wherever I'm unsure, I say that too.
+The notes are written in my own words and focus on how I have applied SAP MM/S/4HANA knowledge in real support and delivery situations. They are intended to show practical understanding, troubleshooting approach, and professional currency without exposing client data.
 
 ## A bit about my work
 
-- **Capgemini India** (Mar 2022 — Apr 2025): Consultant on the ALDI AHEAD programme (ADM). SAP MM and SAP Retail. Lots of MDG / IDoc work, change requests, problem tickets.
-- **Accenture India** (Apr 2021 — Mar 2022): Application Development Senior Analyst on Telia IDS — pure AMS, SAP MM support side of things.
-- **IBM India** (Jul 2016 — Apr 2021): Started here. Shell Oil support and then OMV Oil & Gas — the OMV piece was an S/4HANA Bluefield implementation. That's where I learnt most of what I know about cutover and data migration.
+- **Capgemini India** (Mar 2022 - Apr 2025): SAP MM / SAP Retail consultant on a large European retail SAP programme. Focus areas included MDG, IDoc monitoring, change requests, incident/problem analysis, and production support.
+- **Accenture India** (Apr 2021 - Mar 2022): Application Development Senior Analyst on an AMS engagement for a telecommunications client. Focused on SAP MM support, service procurement, defect handling, and operational stability.
+- **IBM India** (Jul 2016 - Apr 2021): SAP support and implementation work across energy sector engagements, including an S/4HANA selective data transition programme. This is where I built most of my cutover, data migration, and integration experience.
 
 I'm in Melbourne now, working through ITIL 4 and refreshing my S/4HANA Sourcing & Procurement reading.
+
+## ACS evidence focus
+
+For ACS purposes, this repository demonstrates:
+
+- **SAP functional analysis**: P2P process mapping, purchase document types, release strategy, master-data dependencies, and MM/FI integration points.
+- **System integration and troubleshooting**: ALE/IDoc fundamentals, partner profile checks, status-code diagnosis, and reprocessing discipline.
+- **Testing and quality assurance**: reusable MM test-script structure, defect triage, root-cause recording, UAT support, and regression thinking.
+- **Service management**: incident, problem, and change separation using ITIL-aligned practices.
+- **Professional development**: ongoing learning log covering SAP MM, S/4HANA, MDG, integration, and ITIL topics.
 
 ## What's in here
 
 Folder structure is grouped by topic, not by project:
 
-- **01-procurement-p2p** — the bread and butter
+- **01-procurement-p2p** — core purchasing and approval concepts
 - **02-master-data** — material, vendor (now Business Partner), article
 - **03-integration-idoc** — ALE / IDoc, mostly troubleshooting flavoured
 - **04-testing-quality** — my test script template + how I run defect triage
-- **05-s4hana-migration-notes** — Bluefield / Greenfield / Brownfield (the OMV experience shows up here)
+- **05-s4hana-migration-notes** — Bluefield / Greenfield / Brownfield
 - **06-itil-service-management** — incident / problem / change basics
 - **07-learning-log** — courses I've finished and what's next
 
@@ -30,8 +40,8 @@ Some files are detailed, some are short. I add to them as I have time.
 
 ## Disclaimer
 
-Everything is generic — no client names beyond the employer (IBM / Accenture / Capgemini), no real configuration values, no master data. Just patterns and concepts I have come across in my work. If anything looks like it shouldn't be public, please flag it.
+Everything here is generic. There are no client master-data records, real configuration values, transport IDs, ticket IDs, screenshots, system names, or confidential process details. Employer names are included for career context; end-client details have been anonymised for public sharing.
 
 Licence is MIT.
 
-— Geetha
+Geetha

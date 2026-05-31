@@ -2,7 +2,7 @@
 
 Three approaches to getting from ECC to S/4HANA, each with very different cost / risk / time profiles. Choosing the wrong one is one of the most common reasons an S/4HANA programme overruns or doesn't deliver the value the business expected. Anyone working at the boundary between business needs and SAP delivery needs to be able to explain the trade-offs in plain language.
 
-I worked on a Bluefield project at IBM (OMV Oil & Gas). What I write below is partly textbook, partly from that experience.
+I worked on a Bluefield-style S/4HANA programme at IBM for an energy sector client. What I write below is partly textbook, partly from that experience.
 
 ## Greenfield — start fresh
 
@@ -51,9 +51,9 @@ Typical duration: 9–18 months.
 | Change management load | Heaviest | Lightest | Medium |
 | Cutover risk | High (big bang) | Medium (technical) | Medium (data + cutover) |
 
-## My OMV experience
+## My energy-sector project experience
 
-Quick summary of why we ended up doing Bluefield at OMV:
+Quick summary of why the project took a Bluefield / selective data transition approach:
 
 - The legacy ECC carried years of acquired-company configurations that were no longer used.
 - The business wanted to consolidate countries onto a single chart of accounts and a unified enterprise structure. Too disruptive for Brownfield.
